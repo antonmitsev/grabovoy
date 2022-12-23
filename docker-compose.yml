@@ -1,0 +1,35 @@
+version: "3.7"
+services:
+  php:
+    build: "./php/"
+    volumes:
+      - ./public_html/www/:/var/www/html/
+
+  apache:
+    build: "./apache/"
+    depends_on:
+      - php
+      - mysql
+    ports:
+      - "8080:80"
+    volumes:
+      - ./www/html/:/var/www/html/
+      #- ./log:/var/log/apache2
+
+  # mysql:
+  #   image: mysql:5.6.40
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     - MYSQL_DATABASE=el-cigarette
+  #     - MYSQL_ROOT_PASSWORD=root
+
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   links:
+  #     - mysql
+  #   environment:
+  #     PMA_HOST: mysql
+  #     PMA_PORT: 3306
+  #   ports:
+  #     - '8081:80'
