@@ -1,4 +1,6 @@
 <?php
+    define('LIB_INCLUDE_4356', true); // Just in case we put the code inside some site's subfolder
+
     spl_autoload_register(function ($class_name) {
         include '../'. $class_name . '.php';
     });
@@ -22,6 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title><?php echo $number ? : 'Числа на Грабовой'; ?></title>
+    <meta name="description" content="Лечение с числата на Грабовой. <?php echo $title . ' ' . $number; ?>">
 </head>
 <body>
     <div class="layout">
@@ -98,7 +101,6 @@ endif;
 
     <footer>
         &copy; 2022 Антон Мицев (<a href="https://www.tonymitsev.com/">tonymitsev.com</a>)<br/> <strong>ВАЖНО!</strong> Собственикът на сайта не носи никаква отговорност, ако си причините каквото и да било! Има и някaкви кукита по сайта – ако не ви харесва, напуснете.<br/>И нека се оглеждаме, преди да скочим на пешеходната пътека!
-
     </footer>
 </body>
 </html>

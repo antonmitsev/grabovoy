@@ -1,4 +1,9 @@
 <?php
+if(!defined('LIB_INCLUDE_4356')) {
+    header("HTTP/1.1 301 Moved Permanently");
+    Header('location: /');
+    exit(01);
+}
 
 class Numbers {
     static $numbers = 

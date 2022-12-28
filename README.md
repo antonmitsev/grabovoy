@@ -13,6 +13,12 @@
 bash run.sh
 ```
 
+## Stop server
+
+```
+bash stop.sh
+```
+
 ## Refresh
 
 ```

@@ -1,7 +1,5 @@
 FROM php:7.4-apache
-WORKDIR /var/www/html
-
-COPY ./www/ ..
-COPY ./www/html/ .
-
+# This seems to be valid by default
+WORKDIR /var/www/html/
+COPY ./www/. /var/www/
 EXPOSE 80
