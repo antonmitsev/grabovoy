@@ -38,6 +38,6 @@ node scheduler
 
 ## Help is always appreciated!
 
-- BTC: 3N1oSTygZZKQ7qkPJ7bAvh3wNHAXZ7GaQ7
+- BTC: `3N1oSTygZZKQ7qkPJ7bAvh3wNHAXZ7GaQ7`
 - PayPal: https://paypal.me/antonmitsev
 - Revolut: https://revolut.me/anton27cf
