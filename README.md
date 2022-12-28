@@ -1,4 +1,6 @@
-# Numbers of Grabovoy
+# Docker/PHP example of a simple PHP site
+
+## Numbers of Grabovoy
 
 ## Prerequisites
 
