@@ -13,7 +13,7 @@
     }
 
     $number = preg_replace("/[^\d]+/i", '', urldecode($_SERVER['REQUEST_URI']));
-    $title = preg_replace("/[^\p{L}\s\.,]/u", '', urldecode($_SERVER['REQUEST_URI']));    
+    $title = preg_replace("/[^\p{L}\s\.,]/u", '', urldecode($subfolders[count($subfolders) - 1]));    
 ?><!DOCTYPE html>
 <html lang="bg">
 <head>
