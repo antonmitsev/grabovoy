@@ -2,6 +2,11 @@
 
 ## Numbers of Grabovoy
 
+## Usage
+
+- Put files which do not need to be publically accessed in the WWW folder. HTML folder will be tha base folder of your site.
+- Run `node scheduler` to start server and to watch for changes.
+
 ## Prerequisites
 
 - Docker
@@ -30,3 +35,9 @@ bash r.sh
 ```
 node scheduler
 ```
+
+## Help is always appreciated!
+
+- BTC: 3N1oSTygZZKQ7qkPJ7bAvh3wNHAXZ7GaQ7
+- PayPal: https://paypal.me/antonmitsev
+- Revolut: https://revolut.me/anton27cf
